@@ -4,7 +4,7 @@
   "description": "Read the source of webpage and get the top most 3 images, starting if \"og:image\" exists else from \"img\" tag",
   "main": "notifiserver.js",
   "scripts": {
-    "test": "grunt test",
+    "test": "npm install",
     "start": "nodemon src/notifiserver"
   },
   "author": "Yogender Kumar",
