@@ -1,0 +1,38 @@
+
+> notifi@1.0.0 start /root/nofity
+> nodemon src/notifiserver
+
+10 Aug 20:05:02 - [33m[nodemon] v1.4.0[39m
+10 Aug 20:05:02 - [33m[nodemon] to restart at any time, enter `rs`[39m
+10 Aug 20:05:02 - [33m[nodemon] watching: *.*[39m
+10 Aug 20:05:02 - [32m[nodemon] starting `node src/notifiserver notifiserver.js`[39m
+exception in nodemon killing node
+Error: EBADF, read
+    at Error (native)
+
+----------------------------------------------------------
+If appropriate, please file an error with the output from:
+$ /opt/bitnami/nodejs/bin/.node.bin /root/nofity/node_modules/.bin/nodemon src/notifiserver --dump
+At http://github.com/remy/nodemon/issues/new
+----------------------------------------------------------
+
+
+npm ERR! Linux 3.13.0-53-generic
+npm ERR! argv "/opt/bitnami/nodejs/bin/.node.bin" "/opt/bitnami/nodejs/bin/npm" "start"
+npm ERR! node v0.12.4
+npm ERR! npm  v2.1.18
+npm ERR! code ELIFECYCLE
+npm ERR! notifi@1.0.0 start: `nodemon src/notifiserver`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the notifi@1.0.0 start script 'nodemon src/notifiserver'.
+npm ERR! This is most likely a problem with the notifi package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     nodemon src/notifiserver
+npm ERR! You can get their info via:
+npm ERR!     npm owner ls notifi
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /root/nofity/src/npm-debug.log
