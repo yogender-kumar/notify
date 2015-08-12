@@ -1,14 +1,14 @@
 {
-  "name": "notifi",
+  "name": "notify",
   "version": "1.0.0",
-  "description": "",
+  "description": "Read the source of webpage and get the top most 3 images, starting if \"og:image\" exists else from \"img\" tag",
   "main": "notifiserver.js",
   "scripts": {
     "test": "grunt test",
     "start": "nodemon src/notifiserver"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Yogender Kumar",
+  "license": "MIT",
   "dependencies": {
     "cheerio": "^0.18.0",
     "connect-timeout": "^1.6.1",
@@ -19,7 +19,7 @@
     "parse-filepath": "^0.5.0",
     "promise": "^6.1.0",
     "raw-body": "^1.3.3",
-	"request":"^2.60.0"
+    "request": "^2.60.0"
   },
   "devDependencies": {
     "blanket": "*",
@@ -29,5 +29,28 @@
     "jshint-stylish": "^1.0.1",
     "nock": "^2.0.1",
     "unirest": "*"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yogender-kumar/notify.git"
+  },
+  "keywords": [
+    "Read",
+    "the",
+    "Source",
+    "of",
+    "a",
+    "webpage",
+    "and",
+    "get",
+    "the",
+    "top",
+    "most",
+    "3",
+    "images"
+  ],
+  "bugs": {
+    "url": "https://github.com/yogender-kumar/notify/issues"
+  },
+  "homepage": "https://github.com/yogender-kumar/notify#readme"
 }
